@@ -11,6 +11,22 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    r = 5
+    # s = 3.14 * r * r
+    # print(s)
+# name = input("")
+# print(name)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+import turtle as t
+
+t.pencolor("red")
+t.fillcolor("yellow")
+t.begin_fill()
+while True:
+    t.forward(200)
+    t.right(144)
+    if abs(t.pos()) < 1:
+        break
+    t.end_fill()
